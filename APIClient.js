@@ -6,6 +6,7 @@ export class APIClient {
       throw Error("Abstract class");
     }
     this.baseUrl = _baseUrl;
+    //ciao
   }
 
   async getEvent(_url) {
